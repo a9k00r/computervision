@@ -7,6 +7,6 @@ apply max pooling for dimenssion reduction i.e. convolve kernal matrix over inpu
 output image size: l*m*c
 
     formula used: 
-     l= =m math.ceil((n-k+1/2) +1)
+     l=m math.ceil((n-k+1/2) +1)
      c= number of chanels (R,G,B)
 
