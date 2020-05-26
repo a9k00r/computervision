@@ -7,6 +7,6 @@ Task: Apply max pooling CNN algorithm for dimenssion reduction i.e. convolve ker
 output image size:  L x M x C
 
     formula used: 
-     L = M math.ceil((n-k+1/2) +1)
+     L = M = dimension = math.ceil((n-k+1/2) +1)
      C = number of chanels (R,G,B)
 
