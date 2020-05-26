@@ -4,9 +4,9 @@
 
 apply max pooling for dimenssion reduction i.e. convolve kernal matrix over input image.
 
-output image size: l*m*c
+output image size:  L x M x C
 
     formula used: 
-     l=m math.ceil((n-k+1/2) +1)
-     c= number of chanels (R,G,B)
+     L = M math.ceil((n-k+1/2) +1)
+     C = number of chanels (R,G,B)
 
