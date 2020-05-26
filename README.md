@@ -1,7 +1,12 @@
 # computervision
-1. Give a 2D array ok size nxm which is an input image 
-2. Give and kernal of size pxq 
+1. Give a 2D array of size nxm, which is an input image 
+2. Give a kernal of size pxq 
 
-find the max pool matrix using the formula math.ceil((n-k+1/2) +1)
+apply max pooling for dimenssion reduction i.e. convolve kernal matrix over input image.
 
-return the max value among them
+output image size: l*m*c
+
+    formula used: 
+     l= =m math.ceil((n-k+1/2) +1)
+     c= number of chanels (R,G,B)
+
