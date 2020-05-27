@@ -1,6 +1,6 @@
 # computervision
 1. Given a 2D array of size nxm, which is an input image 
-2. Given a kernal of size pxq.
+2. Given a kernal of size kxk.
 
 Task: Apply max pooling CNN algorithm for dimenssion reduction i.e. convolve kernal matrix over input image.
 
